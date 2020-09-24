@@ -1,0 +1,10 @@
+.app {
+  text-align: center;
+}
+
+.citiesContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 220px);
+  grid-gap: 50px;
+  justify-content: center;
+}
