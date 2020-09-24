@@ -1,6 +1,7 @@
 import React, { FC } from 'react'
-import styles from './CityWeather.module.css'
+
 import { kelvinToCelsius } from '../../utils/utils'
+import styles from './CityWeather.module.css'
 
 interface CityWeatherProps {
   weather: any

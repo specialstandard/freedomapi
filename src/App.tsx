@@ -1,9 +1,9 @@
-import React, { FC, useState } from 'react';
-import styles from './App.module.css';
+import React, { FC, useState, useEffect } from 'react';
 import axios from 'axios'
-import { useEffect } from 'react';
+
 import CityWeather from './components/CityWeather/CityWeather';
 import Nav from './components/Nav/Nav';
+import styles from './App.module.css';
 
 const App: FC = () => {
 
